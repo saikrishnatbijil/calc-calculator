@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.background {
+  width: 100%;
   min-height: 100vh;
+  background: linear-gradient(#5F95FF, #8FF8FF);
   display: flex;
-  flex-direction: column;
   align-items: center;
+}
+
+.calcBody{
+  width: 30%;
+  min-height: fit-content;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+  padding: 30px;
+  background: linear-gradient(to right bottom, rgba(255,255,255,0.4), rgba(255,255,255,0.3));
+}
+
+.calcBody h3{
+  color: #002E88;
+}
+
+.inputScreen {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.inputScreen h5{
+  font-size: 30px;
+  color: #002E88;
+  margin-left: 20px;
+}
+
+.keyGroup1{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.keyGroup2{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 600px){
+  .calcBody{
+    width: 80%;
   }
-  to {
-    transform: rotate(360deg);
+  .background{
+    background: linear-gradient(to right bottom,#8FF8FF,#5F95FF) ;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+  .calcBody{
+    width: 50%;
   }
 }

@@ -1,0 +1,19 @@
+.mainBack{
+    padding: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #002E88;
+    width: fit-content;
+    border-radius: 30%;
+    margin: 10px;
+    transition-duration: 0.3s;
+}
+
+.mainBack:hover{
+    background-color: #5f94ff76;
+    box-shadow: 0px 0px 30px 5px #5F95FF;
+}
+
+.value{
+    color: #E4FDFF;
+}
