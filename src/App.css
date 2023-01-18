@@ -27,6 +27,7 @@
   background-color: white;
   border-radius: 20px;
   margin-top: 10px;
+  overflow: scroll;
 }
 
 .inputScreen h5{
